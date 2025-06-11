@@ -17,8 +17,8 @@ df_dsa = pd.read_csv("dataset.csv")
 # print(df_dsa["Valor_Venda"])
 # print(df_dsa.Valor_Venda)
 
-
-
+# print(df_dsa[df_dsa.duplicated()])
+# print(df_dsa[df_dsa["Valor_Venda"] > 200.0])
 
 
 
